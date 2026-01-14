@@ -19,7 +19,9 @@
 }
 
 .features,
-.some-facts, .sponsors {
+.some-facts,
+.sponsors,
+footer {
     padding-top: 130px;
 }
 
@@ -240,6 +242,15 @@ header nav {
     filter: grayscale(0%);
 }
 
+.footer-text {
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
 /* device responsiveness added for small devices */
 @media screen and (max-width: 576px) {
 
@@ -273,7 +284,9 @@ header nav {
     }
 
     .features,
-    .some-facts, .sponsors {
+    .some-facts,
+    .sponsors,
+    footer {
         padding-top: 60px;
     }
 
@@ -309,6 +322,10 @@ header nav {
         grid-template-columns: 1fr;
         gap: 50px;
         justify-items: center;
+    }
+
+    .footer-text {
+        margin-bottom: 20px;
     }
 
 }
